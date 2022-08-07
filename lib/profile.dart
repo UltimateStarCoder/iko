@@ -9,7 +9,12 @@ class Profile extends StatelessWidget {
       body: Center(
         child: Column(
           children: const [
-            Text("Profile"),
+            SizedBox(height: 10),
+            // Text(
+            //   "Profile",
+            //   style: TextStyle(fontSize: 17),
+            // ),
+
           ],
         ),
       ),
